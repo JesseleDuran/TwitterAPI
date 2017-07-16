@@ -13,7 +13,7 @@ Una vez terminado..
 <strong>Paso 4:</strong> Cambiar los siguientes parámetros según corresponda en la Base de Datos:
 
 ```
-DB_DATABASE=(Tu Base de Datos)
+DB_DATABASE=(Nombre de tu Base de Datos)
 DB_USERNAME=(Escribir tu usuario)
 DB_PASSWORD=(Escribir tu clave)
 
