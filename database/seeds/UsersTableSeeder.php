@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class TweetTable extends Seeder
+class UsersTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,14 +13,12 @@ class TweetTable extends Seeder
     {
       for ($i=0; $i <1900 ; $i++)
       {
-        DB::table('tweets')->insert([
-          'tweet' => str_random(110),
-          'rt' => 8,
-          'fav' => 12,
-          'id_user' => 1,
+        DB::table('users')->insert([
+          'name' => str_random(110),
+          'email' => str_random(10).'@gmail.com',
+          'password' => bcrypt('secret'),
           'image' => str_random(10),
       ]);
       }
-
     }
 }

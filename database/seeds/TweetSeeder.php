@@ -17,7 +17,7 @@ class TweetSeeder extends Seeder
           'tweet' => str_random(110),
           'rt' => 8,
           'fav' => 12,
-          'id_user' => 1,
+          'id_user' => 2,
           'image' => str_random(10),
       ]);
       }
