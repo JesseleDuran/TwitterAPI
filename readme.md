@@ -33,5 +33,5 @@ Una vez los datos sean los correspondientes, proceder:
 
 ```php artisan serve```
 
-Para correr el servidor.
+Para correr el servidor y tener la API en funcionamiento.
 
